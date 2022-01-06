@@ -1,0 +1,184 @@
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3 5 7 5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: "Rubik";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Rubik";
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  margin-left: 2%;
+}
+
+.section-heading {
+  font-size: 1.5rem;
+}
+
+.features-title {
+  font-size: 1rem;
+}
+
+/*Sections*/
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+  padding: 5% 10%;
+  background-color: #fff;
+  position: relative;
+}
+
+/*Navigation bar*/
+.navbar {
+  padding-bottom: 4.5rem;
+  margin-left: 2%;
+}
+
+.navbar-brand {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 10%;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Merriweather';
+}
+
+/*Download buttons*/
+.col-lg-6-btn {
+  margin-left: 0.75%;
+}
+
+.download-button {
+  margin: 3% 0% 3% 1%;
+}
+
+/*Title image*/
+.title-image {
+  width: 10%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+
+/*Features section*/
+#features {
+  padding: 5% 10%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/*Testimonials section*/
+#testimonials {
+  text-align: center;
+}
+
+.testimonials-text {
+  font-size: 1.5rem;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 3% 10%;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section*/
+#pricing {
+  padding: 7%;
+}
+
+.price-text {
+  font-size: 1.5rem;
+  line-height: 1rem;
+}
+
+.pricing-column {
+  padding: 3% 2% 0% 2%;
+  text-align: center;
+}
+
+@media (max-width: 950px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+  }
+}
+
+/* Call to Action*/
+#cta {
+  background: #ff4c68;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.cta-font {
+  color: white;
+}
+
+/*Footer*/
+#footer {
+  padding: 1% 0 0 0;
+  background-color: #fff;
+  text-align: center;
+}
